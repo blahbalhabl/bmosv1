@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+<!-- ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
@@ -47,7 +47,22 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
 - **[OP.GG](https://op.gg)**
 - **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- **[Lendio](https://lendio.com)** -->
+
+<h1>Municipal Ordinance Management System with Laravel 10</h1>
+
+## Installing Laravel
+
+To install laravel, refer to the **[Laravel](https://laravel.com/docs/10.x/installation)** documentation link.
+
+**[Composer](https://getcomposer.org/download/)** Download Link.
+
+## Starting the Project
+
+<ul>
+    <li>Clone the github project inside htdocs folder of xampp/wamp.</li>
+    <li>Open a Terminal inside the Project folder and run the command 'php artisan serve'</li>
+</ul>
 
 ## Contributing
 
