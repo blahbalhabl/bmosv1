@@ -61,7 +61,11 @@ To install laravel, refer to the **[Laravel](https://laravel.com/docs/10.x/insta
 
 <ul>
     <li>Clone the github project inside htdocs folder of xampp/wamp.</li>
-    <li>Open a Terminal inside the Project folder and run the command 'php artisan serve'</li>
+    <li>Open a Terminal inside the Project folder and run the command '<strong>php artisan serve</strong>'</li>
+    <li>Execute the command '<strong>composer require laravel/ui</strong>'</li>
+    <li>Execute the command '<strong>php artisan ui bootstrap --auth</strong>'</li>
+    <li>Execute the command '<strong>npm install && npm run dev</strong>'</li>
+    <li>Execute the command '<strong>php artisan migrate</strong>'</li>
 </ul>
 
 ## Contributing
