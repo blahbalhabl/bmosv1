@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\Http\HomeController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,4 +22,12 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::middleware(['2fa'])->group(function() {
+
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    Route::post('/2fa', function() {
+        return redirect(route('home'));
+    })->name('2fa');
+});
+
+Route::get('/complete-registration', [RegisterController::class, 'completeRegistration'])->name('complete.registration');
